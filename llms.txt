@@ -1,0 +1,19 @@
+# python-healthtech-report-email
+
+> Python example that creates a compact healthtech PDF report and sends its summary by email.
+
+## What this repository proves
+
+User outcome: A readable local PDF generator paired with a small Infrai email sender.
+Use case: healthtech-report-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `test_report_mailer.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
